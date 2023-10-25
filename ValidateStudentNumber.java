@@ -27,5 +27,8 @@ public class ValidateStudentNumber
             System.out.println("Valid");
         else
             System.out.println("Invalid");
+            
+    
+    
     }
 }

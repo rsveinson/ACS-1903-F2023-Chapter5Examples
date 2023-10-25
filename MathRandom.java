@@ -38,7 +38,7 @@ public class MathRandom {
         int max = 15;
         double x = 0.0;
         for(int i = 0; i < 100; i++){
-            // to get a number between 0 and 1000
+            // to get a number between [0, 100)
             x = Math.random() * 100;
             
             // random number between n and m
