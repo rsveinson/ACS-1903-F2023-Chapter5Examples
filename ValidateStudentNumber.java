@@ -20,6 +20,7 @@ public class ValidateStudentNumber
             
             if ( ! Character.isDigit(c))
                 valid = false;
+            
         }// end for loop 
         
         if (valid)

@@ -6,10 +6,14 @@ public class SumNumericValues
 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
+        
         System.out.print("\nEnter a line: ");
         String line = kb.nextLine();
+        
         int sum = addDigits(line);
         System.out.println("sum = \t"+sum);
+        
+        System.out.println(Character.getNumericValue('z'));
     }
 
     public static int addDigits(String s){        
