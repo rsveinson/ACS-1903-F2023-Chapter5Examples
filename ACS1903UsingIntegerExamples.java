@@ -59,6 +59,22 @@ public class ACS1903UsingIntegerExamples {
         //n = Integer.parseInt("1,234");
         //n = Integer.parseInt("$1234");
         
+        // toString()
+        Random rnd = new Random();
+        n = rnd.nextInt(9000) + 1000;
+        System.out.println("integer number: " + n);
+        
+        st = Integer.toString(n);
+        System.out.println("now as a string: " + st);
+        
+        char ch = st.charAt(2);
+        System.out.println("now the third digit: " + ch);
+        
+        System.out.println("now digits reversed");
+        
+        for(int i = st.length() -1; i >= 0; i--){
+            System.out.println(st.charAt(i));
+        }// end for
         
         
         

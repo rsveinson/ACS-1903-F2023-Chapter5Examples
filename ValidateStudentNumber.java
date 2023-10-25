@@ -26,5 +26,11 @@ public class ValidateStudentNumber
             System.out.println("Valid");
         else
             System.out.println("Invalid");
+            
+    // some more Character class examples
+    
+    // numeric value v unicode value
+    
+    // toUpperCase example
     }
 }
