@@ -19,7 +19,7 @@ public class ACS1903MoreCharExamples {
     
     // ***** Declaration of Variables *****
     
-        char ch = 'a';
+        char ch = '9';
         int i = 0;
                    
         
@@ -31,7 +31,13 @@ public class ACS1903MoreCharExamples {
     // convert to numeric value i.e. - '0'
     
     // i = ch;
-    // System.out.println(i);
+    // System.out.println(i - '0');
+    
+    i = Character.getNumericValue(ch);
+    System.out.println(i);
+    
+    ch = 95;
+    System.out.println(ch);
     
     // use getNumericValue
     
@@ -41,10 +47,10 @@ public class ACS1903MoreCharExamples {
     
     // toUpperCase()
     
-    // ch = 'a';
-    // System.out.println(ch);
-    // ch = Character.toUpperCase(ch);
-    // System.out.println(ch);
+    ch = 'a';
+    System.out.println(ch);
+    ch = Character.toUpperCase(ch);
+    System.out.println(ch);
            
     // ***** output *****
     

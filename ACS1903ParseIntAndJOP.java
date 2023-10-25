@@ -27,7 +27,7 @@ public class ACS1903ParseIntAndJOP {
     numberInput = Integer.parseInt(strin);
     
     //error incompatible types have to use explicit casting
-    numberSquared = pow(numberInput, 2);
+    numberSquared = (int)Math.pow(numberInput, 2);
     
     System.out.println(numberInput + "^2 = " + numberSquared);
         

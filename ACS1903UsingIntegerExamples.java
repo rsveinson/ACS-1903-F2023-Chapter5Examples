@@ -30,6 +30,15 @@ public class ACS1903UsingIntegerExamples {
     
         System.out.println(Integer.MAX_VALUE);
         System.out.println(Integer.MIN_VALUE);
+        System.out.println();
+        
+        // int big = Integer.MAX_VALUE;
+        // System.out.println(big);
+        // big++;
+        // System.out.println(big);
+        // big--;
+        // System.out.println(big);
+        // System.out.println();
         
         n = 256;
         m = 128;
